@@ -163,7 +163,8 @@ body{
     width:70%;
     border-radius:8px;
     margin-left: 60px;
-    padding-right: -20px;
+    
+    
 
 }
 
@@ -189,7 +190,7 @@ body{
     color:#fff;
     line-height: 1.7;
     margin-right:20%;
-    margin-left:-20%;
+    margin-left:-15%;
 }
 .about-text p{
     color: aliceblue;
@@ -197,18 +198,18 @@ body{
     line-height:1.4;
     margin-bottom:4rem;
     margin-right: 20px;
-    margin-left:-20%;
+    margin-left:-15%;
     /* margin-left:25px; */
 }
 .about-text h3{
     color: #0ef;
     margin-left: 0px;
-    margin-left:-20%;
+    margin-left:-15%;
 }
 .about-text ul {
     padding-left: 10px;
     margin-left: 0px;
-    margin-left:-20%;
+    margin-left:-15%;
     margin-bottom: 10%;
     
 }
