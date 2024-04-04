@@ -6,6 +6,9 @@
     scroll-behavior: smooth;
 
 }
+html{
+    font-size: 62.5%; //10px=1rem
+}
 body{
     color: white;
     background-color:#081b29;
@@ -16,7 +19,7 @@ body{
     top:10;
     left:0;
     width:100%;
-    padding: 15px 10%;
+    padding: 1.5rem 10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,9 +29,9 @@ body{
 .logo{
    
     position: relative;
-    left: -40px;
-    top: -5px;
-    font-size: 25px;
+    left: -4.0rem;
+    top: -.5rem;
+    font-size: 2.5rem;
     color:#0ef;
     text-decoration: none;
     font-weight: 1000;
@@ -40,12 +43,12 @@ body{
 }
 .navbar a{
     display:inline-block;
-    font-size: 25px;
+    font-size: 2.5rem;
     color:#fff;
     text-decoration: none;
     font-weight: 500;
-    margin-bottom: 15px;
-    margin-right: 15px;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
     transition: 0.3s;
     opacity:0;
     animation:slideTop .5s ease forwards;
@@ -65,14 +68,14 @@ body{
      background-position: center;
      display: flex;
      align-items: center;
-     padding: 70px 10% 0;
+     padding: 7.0rem 10% 0;
 
 }
 .home-content{
-    max-width: 600px;
+    max-width: 60.0rem;
 }
 .home-content h3{
-    font-size: 32px;
+    font-size: 3.2rem;
     font-weight: 700;
     opacity:0;/*how much it will above*/
     animation: slideBottom 1s ease forwards;
@@ -82,19 +85,19 @@ body{
     color:aqua;
 }
 .home-content h3:nth-of-type(2){
-    margin-bottom: 30px;
+    margin-bottom: 3.0rem;
 }
 
 .home-content h1{
-    font-size: 56px;
+    font-size: 5.6rem;
     font-weight:700;
-    margin: -3px 0;
+    margin: -.3rem 0;
     opacity:0;/*how much it will above*/
     animation: slideRight 1s ease forwards;
     animation-delay:1s;
 }
 .home-content p{
-    font-size: 20px;
+    font-size: 2.0rem;
     opacity:0;/*how much it will above*/
     animation: slideLeft 1s ease forwards;
     animation-delay:1s;
@@ -103,50 +106,28 @@ body{
     display:inline-flex;
     justify-content:center;
     align-items:center;
-    width:40px;
-    height:40px;
+    width:4.0rem;
+    height:4.0rem;
     background: transparent;
-    border:2px solid #0ef;
+    border:.2rem solid #0ef;
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 2.0rem;
     color:#0ef;
     opacity:0;
     animation: slideLeft 1s ease forwards;
     animation-delay:calc(.2s * var(--i));
     
     text-decoration: none;
-    margin:30px 15px 30px 0;
+    margin:3.0rem 1.5rem 3.0rem 0;
 
 }
 .home-sci a:hover{
    background-color:#0ef;
     filter:brightness(80%);
     color:#081b29;
-    box-shadow: 0 0 20px #0ef;
+    box-shadow: 0 0 2.0rem #0ef;
 }
-/* .btn-box{
-    display:inline-block;
-    padding:12px 28px;
-    background:#0ef;
-    border-radius: 40px;
-    font-size:16px;
-    color:#081b29;
-    letter-spacing: 1px;
-    text-decoration: none;
-    font-weight:600;
-    opacity:0;
-    animation: slideBottom 1s ease forwards;
-    animation-delay:1s;
-    box-shadow: 0  0 5px #0ef,
-    0 0 25px #0ef
 
-}
-.btn-box:hover{
-    box-shadow: 0 0 5px cyan;
-    0 0 25px cyan, 0 0 50px cyan,
-    0 0 100px cyan, 0 0 200px cyan
-
-} */
 .about{
     display:grid;
  grid-template-columns: repeat(2, 1fr);
@@ -158,34 +139,29 @@ body{
 .about-img img{
     padding-top: 40%;
     padding-bottom:20%;
-    max-width:2700px;
-    height: 1100px;
+    max-width:270.0rem;
+    height: 110.0rem;
     width:70%;
-    border-radius:8px;
-    margin-left: 60px;
-    
-    
-
+    border-radius:.8rem;
+    margin-left: 6.0rem;
 }
-
 .about-text h2{
     display: flex;
     text-align: center;
-    margin-left: -100px;
-    font-size: 60px;
+    margin-left: -10.0rem;
+    font-size: 6.0rem;
     margin-top: 10%;
-
 
 }
 .about-text h2 span{
     color:#0ef;
-    margin-left: 10px;
+    margin-left: 1.0rem;
 }
 .about-text h4{
     padding-top: 20%;
-    padding-bottom: 10px;
+    padding-bottom: 1.0rem;
     align-items: center;
-    font-size: 20px;
+    font-size: 2.0rem;
     font-weight:600;
     color:#fff;
     line-height: 1.7;
@@ -194,22 +170,24 @@ body{
 }
 .about-text p{
     color: aliceblue;
-    font-size:20px;
+    font-size:2.0rem;
     line-height:1.4;
     margin-bottom:4rem;
-    margin-right: 20px;
+    margin-right: 2.0rem;
     margin-left:-15%;
     /* margin-left:25px; */
 }
 .about-text h3{
     color: #0ef;
-    margin-left: 0px;
+    margin-left: 0rem;
     margin-left:-15%;
+    font-size:2.0rem;
 }
 .about-text ul {
-    padding-left: 10px;
-    margin-left: 0px;
+    padding-left: 1.0rem;
+    margin-left: 0rem;
     margin-left:-15%;
+    font-size:2.0rem;
     margin-bottom: 10%;
     
 }
@@ -218,7 +196,7 @@ body{
 
 /* RESUME SECTION */
 .resume .section-title{
-    font-size: 40px;
+    font-size: 4.0rem;
     color:rgb(197, 226, 238);
     padding-top: 0%;
     display:flex;
@@ -229,51 +207,57 @@ body{
 
 }
 .resume .resume-title {
-    font-size: 26px;
+    font-size: 2.6rem;
     font-weight: 600;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    margin-left: 40px;
+    margin-top: 3.0rem;
+    margin-bottom: 2.0rem;
+    margin-left: 4.0rem;
     color: white;
 }
 
 .resume .resume-item {
-    padding: 0 0 20px 20px;
-    margin: -2px 0px 0px 15px;
+    padding: 0 0 2.0rem 2.0rem;
+    margin: -.2rem 0rem 0rem 1.5rem;
     position: relative;
-    border-left:2px solid #a2bbdf;
+    border-left:.2remsolid #a2bbdf;
     
     
 }
 
 .resume .resume-item h4 {
-    line-height: 18px;
-    font-size: 18px;
+    line-height: 1.8rem;
+    font-size: 1.8rem;
     font-weight: 600;
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
     color: #0ef;
-    margin-bottom: 10px;
-    margin-left: 15px;
-    margin-top: 5px;
+    margin-bottom: 1.0rem;
+    margin-left: 1.5rem;
+    margin-top: .5rem;
 }
 
 .resume .resume-item h5 {
-    font-size: 16px;
+    font-size: 1.6rem;
     background: black;
-    padding: 5px 15px;
+    padding: .5rem 1.5rem;
     display: inline-block;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 1.0rem;
 }
 
+.resume .resume-item p {
+    font-size: 1.8rem;
+}
+
+
 .resume .resume-item ul {
-    padding-left: 30px;
+    padding-left: 3.0rem;
 }
 
 .resume .resume-item ul li {
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-bottom: 1.0rem;
+    padding-top: 1.0rem;
+    font-size: 1.8rem;
 }
 
 .resume .resume-item:last-child {
@@ -283,13 +267,13 @@ body{
 .resume .resume-item::before {
     content: "";
     position: absolute;
-    width: 16px;
-    height: 16px;
-    border-radius: 50px;
-    left: -9px;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 5.0rem;
+    left: -.9rem;
     top: 0;
     background: #fff;
-    border: 2px solid #1f5297;
+    border: .2rem solid #1f5297;
 }
 .resume .phone{
     display: none;
@@ -301,7 +285,7 @@ body{
     
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 119.9rem) {
     .resume .phn {
         display: flex;
         text-align: center;
@@ -309,22 +293,25 @@ body{
         align-items: center;
         flex-direction: column;
         font-weight: bold;
+        font-size: 1.6rem;
         
     }
     .resume .phone {
         display: block;
-        width: 200px;
+        width: 20.0rem;
         text-align: center;
+       
     }
     .resume .container .phn a {
+        font-size: 1.8rem;
         text-align: center;
         color:#0ef;
-        margin-top:10px;
+        margin-top:1.0rem;
     }
     .resume .container .phn a:hover{
        color: #051129;
        background-color:white;
-       width: 100px;
+       width: 10.0rem;
     }
     .btn:hover {
         color:black;
@@ -333,98 +320,24 @@ body{
     
     
 }
-/* beecha vsala part
-section{
-    display:flex;
-    flex-wrap:wrap;
-
-}
-.container1{
-    width: 600px;
-    height:500px;
-    padding:75px 90px;
-    margin-left:120px;
-}
-.heading1{
-    text-align: center;
-    text-decoration: underline;
-    text-underline-offset: 10px;
-    text-decoration-thickness :5px;
-    margin: bottom 50px; 
-}
-.bar{
-    font-size: 23px;
-
-}
-.Techanical-bars .bar{
-    margin-top:40px 0;
-}
-.Techanical-bars .bar:first-child{
-    margin-top: 0;
-}
-.Techanical-bars .bar:last-child{
-    margin-bottom: 0;
-}
-.Techanical-bars .bar .info{
-    margin-bottom:5px
-}
-.Techanical-bars .bar .info span{
-    font: size 17px;
-    font-weight:500;
-    animation:showText 0.5s 1s linear forwards;
-    opacity:0;
-
-}
-.Techanical-bars .bar .progress-line{
-    position: relative;
-    border-radius:10px;
-    width:100%;
-    height:5px;
-    background-color:black;
-    animation:animate 1s cubic-bezier(1, 0, 0, 5) forwards;
-    transform:scaleX(0);
-    transform-origin:left;
-}
-@keyframes animate{
-   100%{
-        transform: scaleX(1);
-    }
-    }
-    .Techanical-bars.bar.progress-line span{
-        height: 100%;
-        background-color: #0ef;
-        position:absolute;
-        border-radius:10px;
-        animation:animate 1s 1s cubic-bezier(1,0,0,5,1) forwards;
-        transform:scaleX(0);
-        transform-origin:left;
-
-    }
-    .progress-line.html span{
-        width: 90%;
-    } */
-
-
-
-
 
 /* //skills*/
 .sub-title{
-    font-size: 60px;
+    font-size: 6.0rem;
     padding-top: 10%;
     
 
 }
 .sub-title span{
     color:#0ef;
-    margin-left: 10px;
+    margin-left: 1.0rem;
     
 }
 .sub-title{
     display: flex;
     justify-content: center;
-    padding-top: 150px;
-    padding-bottom: 0px;
+    padding-top: 15.0rem;
+    padding-bottom: .0rem;
 
 }
 section{
@@ -439,24 +352,25 @@ section{
     
 }
 .container1{
-      width:600px;
-      height:500px;
-      padding:75px 90px;
-      margin-left: 120px;
+      width:60.0rem;
+      height:50.0rem;
+      padding:7.5rem 9.0rem;
+      margin-left: 12.0rem;
 
 }
 .heading1{
+    font-size: 1.8rem;
     text-align: center;
     text-decoration: underline;
-    text-underline-offset: 10px;
-    text-decoration-thickness :5px;
+    text-underline-offset: 1.0rem;
+    text-decoration-thickness :.5rem;
 }
 .bar{
-    font-size: 25px;
+    font-size: 2.5rem;
 
 }
 .Techanical-bars .bar{
-    margin-top: 40px;
+    margin-top: 4.0rem;
 }
 .Techanical-bars .bar:first-child{
     margin-top: 0;
@@ -465,10 +379,10 @@ section{
     margin-bottom: 0;
 }
 .Techanical-bars .bar:info{
-    margin-bottom:5px
+    margin-bottom:.5rem;
 }
 .Techanical-bars .bar .info span{
-    font: size 17px;
+    font: size 1.7rem;
     font-weight:500;
     animation:showText 0.5s 1s linear forwards;
     opacity:0;
@@ -476,9 +390,9 @@ section{
 }
 .Techanical-bars .bar .progress-line{
     position: relative;
-    border-radius:10px;
+    border-radius:1.0rem;
     width:100%;
-    height:5px;
+    height:.5rem;
     background-color:#0ef;
     animation:animate 1s cubic-bezier(1, 0, 0, 5) forwards;
     transform:scaleX(0);
@@ -494,7 +408,7 @@ section{
         height: 100%;
         background-color:#0ef;
         position:absolute;
-        border-radius:10px;
+        border-radius:1.0rem;
         animation: animate 1s 1s cubic-bezier(1,0,0,5,1) forwards;
         transform: scaleX(0);
         transform-origin: left;
@@ -517,13 +431,13 @@ section{
     }
     .progress-line span::after{
         position:absolute;
-        padding:1px 8px;
+        padding: .1rem .8rem;
         background-color: black;
         color:white;
-        font-size:12px;
-        border-radius:3px;
-        top:-28px;
-        right: -20px;
+        font-size:1.2rem;
+        border-radius:.3rem;
+        top:-2.8rem;
+        right: -2.0rem;
         animation: showText 0.5s 1.5s linear forwards;
         opacity: 0;
     }
@@ -548,10 +462,10 @@ section{
         width:0;
         height:0;
         border:7px solid transparent;
-        border-bottom-width: 0px;
-        border-right-width: 0px;
+        border-bottom-width: .0rem;
+        border-right-width: 0rem;
         border-top-color:orange;
-        top:-10px;
+        top:-1.0rem;
         right:0;
         animation: showText 0.5s 1.5s linear forwards;
         opacity :0;
@@ -572,8 +486,8 @@ section{
         }
         .radial-bars .radial-bar{
             width:50%;
-            height:170px;
-            margin-bottom:10px;
+            height:17.0rem;
+            margin-bottom:1.0rem;
             position:relative;
          }
          .radial-bars .radial-bar svg{
@@ -581,8 +495,8 @@ section{
             top: 50%;
             left:50%;
             transform: translate(-50%, -50%) rotate(-90deg);
-            width:120px;
-            height:160px;
+            width:12.0rem;
+            height:16.0rem;
          }
          .radial-bars .radial-bar .progress-bar{
             stroke-width:10;
@@ -636,7 +550,7 @@ section{
     top: 50%;
     left:50%;
     transform:translate(-50%, -50%);
-    font-size: 17px;
+    font-size: 1.7rem;
     font-weight:500;
     animation: showText 0.5s 1s linear forwards;
     opacity:0;
@@ -647,9 +561,9 @@ section{
     position:absolute;
     text-align: center;
     left:30%;
-    bottom: -5px;
-    transform:translate(-50px);
-    font-size: 17px;
+    bottom: -.5rem;
+    transform:translate(-5.0rem);
+    font-size: 1.7rem;
     font-weight:500;
     animation: showText 0.5s 1s linear forwards;
     opacity:0;
@@ -657,15 +571,15 @@ section{
 }
 /* project section */
 .main-text{
-    padding-top:130px;
-    margin-top: 200px;
+    padding-top:13.0rem;
+    margin-top: 20.0rem;
 
 }
 .main-text h2{
-    font-size:50px;
+    font-size:5.0rem;
     line-height:1;
     text-align:center;
-    margin-bottom: 70px;
+    margin-bottom: 7.0rem;
     margin-top: -5%;
 }
 .main-text h2 span{
@@ -674,21 +588,21 @@ section{
 .portfolio-content{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(359px, auto));
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 2.0rem;
+    margin-right: 2.0rem;
 
 
 }
 .row{
     position:relative;
     overflow:hidden;
-    border-radius:8px;
+    border-radius:.8rem;
     cursor:pointer;
 
 }
 .row img{
 width:100%;
-border-radius:8px;
+border-radius: .8rem;
 display:block;
 transition: transform 0.5s;
 
@@ -698,7 +612,7 @@ width:100;
 height:0;
 background:linear-gradient(rgba(0,0,0,0.1),#0ef) ;
 position:absolute;
-border-radius:8px;
+border-radius: .8rem;
 left:0;
 bottom:0;
 overflow:hidden;
@@ -707,29 +621,29 @@ flex-direction: left;
 align-items:center;
 justify-content: center;
 text-align:center;
-padding:0 40px;
+padding:0 4.0rem;
 transition:  height 0.5s;
 }
 
 .layer h5{
     color:black;
-    font-size: 20px;
+    font-size: 2.0rem;
     font-weight:600 ;
-    margin-bottom:15px;
+    margin-bottom:1.5rem;
 }
 .layer p{
     color: white;
-    font-size: 1rem;
+    font-size: 1.6rem;
     line-height:1.8;
 }
 
 .layer i{
     color:red;
     background-color:black;
-    margin-top:20px;
-    font-size: 20px;
-    width:60px;
-    height:60px;
+    margin-top:2.0rem;
+    font-size: 2.0rem;
+    width:6.0rem;
+    height:6.0rem;
     border-radius: 50%;
     display:flex;
     justify-content: center;
@@ -748,50 +662,48 @@ transition:  height 0.5s;
     display:grid;
     grid-template-columns:repeat(2,1fr);
     align-items:center;
-    gap:3rem;
-    padding-left: 30px;
-    margin-top:130px;
+    gap:4.8rem;
+    padding-left: 3.0rem;
+    margin-top:13.0rem;
 }
 .contact-text h2{
     /* display: flex; */
     justify-content: center;
-    font-size:50px;
+    font-size:5.0rem;
     line-height:1;
     text-align:center;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: 1.0rem;
+    margin-bottom: 2.0rem;
 }
 .contact-text h2 span{
     color:#0ef;
 }
 .contact-text p{
     color:rgb(177,177,177);
-    font-size:20px;
-    line-height: 30px;
-    margin-bottom: 2rem;
+    font-size:2.0rem;
+    line-height: 3.0rem;
+    margin-bottom: 3.2rem;
 }
 contact-list{
-    margin-bottom:3rem;
+    margin-bottom:4.8rem;
 }
 .contact-text li{
-    margin-bottom: 10px;
+    margin-bottom: 1.0rem;
     display:block;
+    font-size: 1.8rem;
 }
-.contact-text li{
-    margin-bottom: 10px;
-    display:block;
-}
+
 .contact-text i{
     display:inline-block;
     color:#0ef;
-    font-size: 20px;
+    font-size: 2.0rem;
     font-weight:600;
     transition:all .40s ease;
-    margin-right: 10px;
+    margin-right: 1.0rem;
 
 }
 .contact-text li a:hover{
-    transform:scale(1.01) translateY(-5px);
+    transform:scale(1.01) translateY(-.5rem);
     color:#0ef;
 
 }
@@ -799,15 +711,15 @@ contact-list{
     display:inline-flex;
     justify-content: center;
     align-items: center;
-    width:40px;
-    height:40px;
+    width:4.0rem;
+    height:4.0rem;
     background: transparent;
-    border: 2px solid #0ef;
+    border: 0.2rem solid #0ef;
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 2.0rem;
     color:#0ef;
     text-decoration: none;
-    margin: 30px 15px 30px 0;
+    margin: 3.0rem 1.5rem 3.0rem 0;
     transition: .5s ease;
      /* opacity: 0; */
     animation: slideleft 1s ease forwards;
@@ -816,7 +728,7 @@ contact-list{
 .contact-icons i:hover{
     background:#0ef;
     color:black;
-    box-shadow:0 0 20px #0ef;
+    box-shadow:0 0 0.2rem #0ef;
     filter: brightness(80%);
 }
 .contact-form form{
@@ -827,27 +739,27 @@ contact-list{
     border:none;
     outline:none;
     width:90%;
-    padding:18px;
+    padding:1.8rem;
     background: #555557;
     color:black;
-    font-size: 1rem;
+    font-size: 1.6rem;
     font-weight:600;
     /* margin-top: 0.5rem; */
-    margin-bottom: 0.5rem;
-    border-radius: 0.5rem;
+    margin-bottom: 0.8rem;
+    border-radius: 0.8rem;
 }
 .contact-form textarea{
     resize:none;
-    height:220px
+    height:22rem;
 }
 .contact-form form .send{
     display:inline-block;
-    padding:14px 60px;
+    padding:1.4rem 6.0rem;
     background:#0ef;
-    border-radius: 40px;
-    font-size:18px;
+    border-radius: 4rem;
+    font-size:1.8rem;
     color:#081b29;
-    letter-spacing: 1px;
+    letter-spacing: .1rem;
     text-decoration: none;
     font-weight:600;
     opacity:0;
@@ -858,9 +770,9 @@ contact-list{
 
 }
 .contact-form form .send:hover{
-    box-shadow: 0 0 5px cyan,
-    0 0 5px cyan, 0 0 5px cyan,
-    0 0 10px cyan, 0 0 20px cyan;
+    box-shadow: 0 0 .5rem cyan,
+    0 0 .5rem cyan, 0 0 .5rem cyan,
+    0 0 1.0rem cyan, 0 0 2.0rem cyan;
     
     
 
@@ -868,42 +780,44 @@ contact-list{
 }
 .last-text p{
     width:100%;
-    padding:25px 0;
+    padding:2.5rem 0;
    text-align: center;
    background-color: rgb(7,85,91);
    font-weight: 300;
-   margin-top:70px;
+   margin-top:7.0rem;
+   font-size: 1.5rem;
 }
 .top{
     position: fixed;
-    bottom: 2.1rem;
-    right:2.1rem;
+    bottom: 3.36rem;
+    right:3.36rem;
+
 }
 .top i{
     color:black;
     background: #0ef;
-    font-size:20px;
-    padding:10px;
-    border-radius: 0.5rem;
+    font-size:2.0rem;
+    padding:1.0rem;
+    border-radius: 0.8rem;
 }
 @keyframes slideRight{
     0%{
-        transform: translatex(-100px);
+        transform: translatex(-10.0rem);
         opacity:0;
     }
     100%{
-        transform: translatex(0px);
+        transform: translatex(.0rem);
         opacity:1;
     }
     
 }
 @keyframes slideLeft{
     0%{
-        transform: translatex(100px);
+        transform: translatex(10.0rem);
         opacity:0;
     }
     100%{
-        transform: translatex(0px);
+        transform: translatex(0rem);
         opacity:1;
     }
     
@@ -912,23 +826,34 @@ contact-list{
 
 @keyframes slideTop{
     0%{
-        transform: translatey(-100px);
+        transform: translatey(-10rem);
         opacity:0;
     }
     100%{
-        transform: translatey(0px);
+        transform: translatey(0rem);
         opacity:1;
     }
     
 }
 @keyframes slideBottom{
     0%{
-        transform: translatey(100px);
+        transform: translatey(10rem);
         opacity:0;
     }
     100%{
-        transform: translatey(0px);
+        transform: translatey(0rem);
         opacity:1;
     }
     
 }
+@media (max-width: 998px){
+    html{
+        font-size: 55%;
+    }
+}
+ @media(max-width:768px){
+    html{
+        font-size:45%;
+    }
+ }  
+
