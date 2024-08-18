@@ -7,7 +7,8 @@
 
 }
 html{
-    font-size: 62.5%; //10px=1rem
+    font-size: 62.5%;
+     /* //10px=1rem */
 }
 body{
     color: white;
@@ -198,7 +199,7 @@ body{
 .resume .section-title{
     font-size: 4.0rem;
     color:rgb(197, 226, 238);
-    padding-top: 0%;
+    padding-top: 5%;
     display:flex;
     justify-content: center;
     
@@ -324,7 +325,13 @@ body{
 /* //skills*/
 .sub-title{
     font-size: 6.0rem;
-    padding-top: 10%;
+    margin-top: -5%;
+    /* padding-top: 0%; */
+    display: flex;
+    justify-content: center;
+    padding-top: 15.0rem;
+    padding-bottom: .0rem;
+    
     
 
 }
@@ -333,17 +340,15 @@ body{
     margin-left: 1.0rem;
     
 }
-.sub-title{
-    display: flex;
-    justify-content: center;
-    padding-top: 15.0rem;
-    padding-bottom: .0rem;
-
-}
 section{
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
+    margin-bottom: 5%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    /* justify-content: space-evenly; */
+    width: 100%;
 }
 
 .sub-title span{
@@ -354,7 +359,7 @@ section{
 .container1{
       width:60.0rem;
       height:50.0rem;
-      padding:7.5rem 9.0rem;
+      padding:6.5rem 9.0rem;
       margin-left: 12.0rem;
 
 }
@@ -364,10 +369,32 @@ section{
     text-decoration: underline;
     text-underline-offset: 1.0rem;
     text-decoration-thickness :.5rem;
+    margin-bottom:4rem;
 }
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    /* padding-bottom: 15.0rem;
+    margin-bottom: 100%; */
+}
+.hr{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
 .bar{
     font-size: 2.5rem;
+    flex-basis: 48%;
+    text-align: left;
+    word-wrap: break-word;
+    padding-left: 50px;
 
+}
+.Techanical-bars{
+    justify-content: left;
+    margin:10px;
 }
 .Techanical-bars .bar{
     margin-top: 4.0rem;
@@ -410,12 +437,14 @@ section{
         position:absolute;
         border-radius:1.0rem;
         animation: animate 1s 1s cubic-bezier(1,0,0,5,1) forwards;
+      
         transform: scaleX(0);
         transform-origin: left;
 
     }
     .progress-line.HTML span{
         width: 80%;
+      
     }
     .progress-line.CSS span{
         width: 80%;
@@ -427,7 +456,16 @@ section{
         width: 40%;
     }
     .progress-line.Dsa span{
-        width: 10%;
+        width: 100%;
+    }
+    .progress-line.Bootstrap span{
+        width: 80%;
+    }
+    .progress-line.Reactjs span{
+        width: 70%;
+    }
+    .progress-line.Nodejs span{
+        width: 60%;
     }
     .progress-line span::after{
         position:absolute;
@@ -451,10 +489,19 @@ section{
         content: "80%";
     }
     .progress-line.Java span::after{
-        content: "40%";
+        content: "70%";
     }
     .progress-line.Dsa span::after{
-        content: "10%";
+        content: "20%";
+    }
+    .progress-line.Bootstrap span::after{
+        content: "80%";
+    }
+    .progress-line.Reactjs span::after{
+        content: "70%";
+    }
+    .progress-line.Nodejs span::after{
+        content: "60%";
     }
     .progress-line span::before{
         content:"";
@@ -571,7 +618,7 @@ section{
 }
 /* project section */
 .main-text{
-    padding-top:13.0rem;
+    padding-top:0rem;
     margin-top: 20.0rem;
 
 }
@@ -623,6 +670,7 @@ justify-content: center;
 text-align:center;
 padding:0 4.0rem;
 transition:  height 0.5s;
+box-sizing: border-box;
 }
 
 .layer h5{
@@ -633,9 +681,12 @@ transition:  height 0.5s;
 }
 .layer p{
     color: white;
-    font-size: 1.6rem;
+     
+    font-size: 1rem;
+    overflow: hidden;
     line-height:1.8;
-}
+   
+} 
 
 .layer i{
     color:red;
@@ -658,6 +709,7 @@ transition:  height 0.5s;
 }
 
 /* contact section */
+
 .contact{
     display:grid;
     grid-template-columns:repeat(2,1fr);
@@ -669,9 +721,10 @@ transition:  height 0.5s;
 .contact-text h2{
     /* display: flex; */
     justify-content: center;
+    text-align:center;
     font-size:5.0rem;
     line-height:1;
-    text-align:center;
+    
     margin-top: 1.0rem;
     margin-bottom: 2.0rem;
 }
@@ -856,4 +909,7 @@ contact-list{
         font-size:35%;
     }
  }  
+@media {max-width:
+    
+}
 
